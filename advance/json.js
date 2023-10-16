@@ -16,3 +16,10 @@ console.log(newcourse)
 //     "email":"ruswhi@google.com",
 //     "id":"96"
 // }
+
+
+[
+    {},
+    {},
+    {}
+]
