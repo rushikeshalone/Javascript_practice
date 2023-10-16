@@ -37,7 +37,38 @@ const obj2 = {4:"d",5:"e"}
 
 //const obj3 = {obj1 , obj2}            // these is wrong 
  
-const obj3 = Object.assign(obj1,obj2)
-console.log(obj3)
+// const obj3 = Object.assign(obj1,obj2)
+// const obj4 = Object.assign({},obj1,obj2)
+// console.log(obj3)
+// console.log(obj4)
 
+const obj3 = {...obj1,...obj2}
+//console.log(obj3)
+
+const users =[
+    {
+        id:34,
+        Username:"Rushi"
+},
+{
+    id:35,
+    Username:"Saurabh"
+},
+{
+    id:36,
+    Username:"Jayesh"
+},
+]
+
+users[0].id
+//console.log(users[0].id)
+//console.log(users[0].Username)
+
+//console.log(tinderUser)
+
+//console.log(Object.keys(tinderUser))
+//console.log(Object.values(tinderUser))
+//console.log(Object.entries(tinderUser))
+
+console.log(tinderUser.hasOwnProperty('name'))
 
