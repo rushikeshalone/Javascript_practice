@@ -31,15 +31,28 @@ const user = {
 
 //  Arrow Function written as
 
-const chai = () => {
-    let username = "Alone"
-    console.log(this.username)
-}
+// const chai = () => {
+//     let username = "Alone"
+//     console.log(this.username)
+// }
 
-chai()
+// chai()
 
-const addtwo = (num1,num2) => {
-    return num1 + num2 
+// Basic arrow function return
 
-}
-console.log(addtwo (3,6))
+
+// const addtwo = (num1,num2) => {
+//     return num1 + num2 
+
+// }
+// console.log(addtwo (3,6))
+
+//implicit retun arrow function
+
+
+// const addtwo = (num1,num2) =>  num1 + num2 
+// const addtwo = (num1,num2) => ( num1 + num2  )
+// const addtwo = (num1,num2) => ({username :"NEwsaf"})
+const addtwo = (num1,num2) => ([2,3,4,5,6,7,7])
+    
+    console.log(addtwo (3,6))
