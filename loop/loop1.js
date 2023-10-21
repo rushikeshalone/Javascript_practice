@@ -33,10 +33,38 @@
  }
  */
 
- for (let i = 0; i < 5; i++) {
-   for (let j = 0; j < array.length; j++) {
-      const element = array[j];
-      
-   }
-   
+ 
+/*
+ let myArray = ["flash","Batman" , "Superman"]
+
+ for (let i = 0; i < myArray.length; i++) {
+  const element = myArray[i];
+  console.log(element);
  }
+
+ */ 
+
+ /*
+ for (let index = 1; index <= 20; index++) {
+  if (index == 5){
+    console.log(`detected ${index}`)
+    break;
+  }
+  console.log(`values of i is ${index}`) 
+ }
+
+ */
+
+ /*
+ for (let index = 1; index <= 20; index++) {
+  if (index == 5){
+    console.log(`detected ${index}`)
+    continue;
+  }
+  console.log(`values of i is ${index}`) 
+ }
+
+ */
+
+ // ek baar ke liye  print nhi honga lekin usake bad continue chalega
+
