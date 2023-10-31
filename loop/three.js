@@ -1,12 +1,26 @@
-const map = new map();
-map.set('IN',"India")
-map.set('USA',"United stae of america")
-map.set('FR',"France")
+/*
 
+const myObject = { 
+'game1' : 'NFS',
+'game2' : 'swpiderman'
+}
 
-//console.log(map);
+for (const [key , value] of myObject) {
+    console.log(key ,':-', value)
+}
 
-for (const key of map) {
-    console.log(key)
-    
+//object itretable nhi hote o dusare tarika hote hain
+
+*/
+
+const myObject = {
+    js : 'javascript',
+    cpp : 'c++',
+    rb : 'rubby',
+    swift :'wift by google'
+}
+
+for (const key in myObject) {
+   //console.log(myObject[key])
+   console.log(`${key}  shoertkut is for ${myObject[key]}`)
 }

@@ -31,6 +31,6 @@ map.set('FR',"France")
 //console.log(map);
 
 for (const key of map) {
-    console.log(key)
+    console.log(key,':-',value)
     
 }
