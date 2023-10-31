@@ -13,6 +13,7 @@ for (const [key , value] of myObject) {
 
 */
 
+/*
 const myObject = {
     js : 'javascript',
     cpp : 'c++',
@@ -24,3 +25,14 @@ for (const key in myObject) {
    //console.log(myObject[key])
    console.log(`${key}  shoertkut is for ${myObject[key]}`)
 }
+
+*/
+
+const programming = ["js","ruby","python","cpp"]
+
+for (const key in programming) {
+    //console.log(key)
+    console.log(programming[key])
+}
+
+
