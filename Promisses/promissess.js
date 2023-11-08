@@ -62,3 +62,59 @@ console.log(error)
     console.log("The Promise is either resolved or reject")
 });
 
+// promisses five  
+
+const promiseFive = new Promise(function(resolve,reject){
+    setTimeout(function(){
+        let error = true;
+    if (!error){
+        resolve({username:"Javascript",Password:"123@gmail.com"})
+    }else{
+        reject('Error: js Went wrong')
+    }
+    },1000)
+})
+
+async function consumePromiseFive (){
+   try {
+    const response =  await promiseFive
+     console.log(response);
+   } catch (error) {
+    console.log(error)
+   }
+}
+
+consumePromiseFive()
+/*
+async function getAllUser (){
+try {
+    const response = await fetch('https://jsonplaceholder.typicode.com/users')
+    const data = await response.json()
+    console.log(data);
+} catch (error) {
+    console.log("ERROR:",error)
+}
+}
+
+getAllUser ()
+*/
+
+/*
+fetch('https://jsonplaceholder.typicode.com/users')
+.then((response)=>{
+return response.json()
+})
+.then((data)=>{
+    console.log(data);
+})
+.catch((error)=> console.log(error))
+
+*/
+fetch('https://api.github.com/users/hiteshchoudhary')
+.then((response)=>{
+return response.json()
+})
+.then((data)=>{
+    console.log(data);
+})
+.catch((error)=> console.log(error))
