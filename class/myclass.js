@@ -28,6 +28,7 @@ function User(username,email,password){
     this.password = password
 }
 
+
 User.prototype.encrypPassword = function(){
     return  `${this.password} abc`
 }
