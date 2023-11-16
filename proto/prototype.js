@@ -8,6 +8,7 @@ let myName = "rushi     ";
 console.log(myName.truelength);
 */
 
+/*
 
 let myHero = ["thor","spiderman"];
 
@@ -32,6 +33,7 @@ Array.prototype.heyRushi = function(){
 // myHero.heyRushi()
 // heroPower.heyRushi() these is an error  the values  not assigned
 
+*/
 
 // inheritance
 
