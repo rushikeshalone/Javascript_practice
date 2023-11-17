@@ -28,3 +28,11 @@ chai.addCourse()
 const masalaChai = new User ("masalaChai")
 
 masalaChai.logMe()
+//  console.log(chai === masalaChai)  // false
+
+//console.log(chai === Teacher)  //false
+
+console.log(chai instanceof Teacher)  // true
+console.log(chai instanceof User)       // true
+
+
